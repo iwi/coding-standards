@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Data Science Campus Project Standards</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta name="description" content="Data Science Campus Project Standards">
+  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Data Science Campus Project Standards" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="datasciencecampus/workflow" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Data Science Campus Project Standards" />
+  
+  
+  
+
+<meta name="author" content="Nathan Eastwood">
+
+
+<meta name="date" content="2017-04-04">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="introduction.html">
+<link rel="next" href="tools-1.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="custom.css" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="deps.html"><a href="deps.html"><i class="fa fa-check"></i><b>1</b> Dependency Management</a></li>
+<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="programming-languages.html"><a href="programming-languages.html"><i class="fa fa-check"></i><b>3</b> Programming languages</a><ul>
+<li class="chapter" data-level="3.1" data-path="programming-languages.html"><a href="programming-languages.html#r"><i class="fa fa-check"></i><b>3.1</b> R</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="programming-languages.html"><a href="programming-languages.html#tools"><i class="fa fa-check"></i><b>3.1.1</b> Tools</a></li>
+<li class="chapter" data-level="3.1.2" data-path="programming-languages.html"><a href="programming-languages.html#links"><i class="fa fa-check"></i><b>3.1.2</b> Links</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="programming-languages.html"><a href="programming-languages.html#code-packaging"><i class="fa fa-check"></i><b>3.2</b> Code packaging</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="programming-languages.html"><a href="programming-languages.html#code-testing"><i class="fa fa-check"></i><b>3.2.1</b> Code testing</a></li>
+<li class="chapter" data-level="3.2.2" data-path="programming-languages.html"><a href="programming-languages.html#dependency-management"><i class="fa fa-check"></i><b>3.2.2</b> Dependency management</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="programming-languages.html"><a href="programming-languages.html#python"><i class="fa fa-check"></i><b>3.3</b> Python</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="programming-languages.html"><a href="programming-languages.html#code-testing-1"><i class="fa fa-check"></i><b>3.3.1</b> Code testing</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="programming-languages.html"><a href="programming-languages.html#haskell"><i class="fa fa-check"></i><b>3.4</b> Haskell</a></li>
+<li class="chapter" data-level="3.5" data-path="programming-languages.html"><a href="programming-languages.html#scala"><i class="fa fa-check"></i><b>3.5</b> Scala</a></li>
+<li class="chapter" data-level="3.6" data-path="programming-languages.html"><a href="programming-languages.html#java"><i class="fa fa-check"></i><b>3.6</b> Java</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="tools-1.html"><a href="tools-1.html"><i class="fa fa-check"></i><b>4</b> Tools</a><ul>
+<li class="chapter" data-level="4.1" data-path="tools-1.html"><a href="tools-1.html#github"><i class="fa fa-check"></i><b>4.1</b> GitHub</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="tools-1.html"><a href="tools-1.html#naming-conventions"><i class="fa fa-check"></i><b>4.1.1</b> Naming conventions</a></li>
+<li class="chapter" data-level="4.1.2" data-path="tools-1.html"><a href="tools-1.html#commit-best-practices"><i class="fa fa-check"></i><b>4.1.2</b> Commit best practices</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="tools-1.html"><a href="tools-1.html#docker"><i class="fa fa-check"></i><b>4.2</b> Docker</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="templates.html"><a href="templates.html"><i class="fa fa-check"></i><b>5</b> Templates</a><ul>
+<li class="chapter" data-level="5.1" data-path="templates.html"><a href="templates.html#r-1"><i class="fa fa-check"></i><b>5.1</b> R</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science Campus Project Standards</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="programming-languages" class="section level1">
+<h1><span class="header-section-number">3</span> Programming languages</h1>
+<p>Make pretty code. No exceptions.</p>
+<div id="r" class="section level2">
+<h2><span class="header-section-number">3.1</span> R</h2>
+<div id="tools" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Tools</h3>
+<ul>
+<li><a href="https://github.com/MangoTheCat/goodpractice">goodpractice</a>: Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.
+<ul>
+<li><a href="https://github.com/jimhester/lintr">lintr</a>: Static code analysis for R. Can be executed standalone/part of build or integrated into rstudio, emacs/ess, vim etc.</li>
+</ul></li>
+<li><a href="https://yihui.name/formatr/">formatr</a>: Format R code automatically.</li>
+</ul>
+</div>
+<div id="links" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Links</h3>
+<ul>
+<li><p><a href="http://r-pkgs.had.co.nz/style.html">Hadley Wickham’s R Style Guide</a></p></li>
+<li><p><a href="http://codegolf.stackexchange.com/">Code Golf</a> :)</p></li>
+</ul>
+</div>
+</div>
+<div id="code-packaging" class="section level2">
+<h2><span class="header-section-number">3.2</span> Code packaging</h2>
+<p>When writing code for a project, that code should ideally be held within a self contained package or series of packages. This helps to manage <a href="deps.html#deps">dependencies</a> on other packages, <a href="#tests">code testing</a>, documentation and more.</p>
+<p>For R, there is one major resource that you should make yourself familiar with: <a href="http://r-pkgs.had.co.nz/" class="uri">http://r-pkgs.had.co.nz/</a>. This book should cover all the essentials you will need to know in order to write an R package. Once you have mastered this book, you may wish to consider the <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html">Writing R Extensions</a> manual, though this is a heavy read.</p>
+<div id="code-testing" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Code testing</h3>
+<ul>
+<li><a href="https://github.com/hadley/testthat">testthat</a></li>
+</ul>
+</div>
+<div id="dependency-management" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Dependency management</h3>
+<p>Keeping track of dependencies in R can be a chore, particularly when using lots of different packages such as those belonging to the <code>tidyverse</code>. There are however different packages which aim to help with this.</p>
+<div id="description-file" class="section level4">
+<h4><span class="header-section-number">3.2.2.1</span> <code>DESCRIPTION</code> file</h4>
+<p>This is the most basic way of maintanining dependencies in R, though it is not recommended - it is only part of the dependency management system you should employ. Each R package will have a <code>DESCRIPTION</code> file which should contain a list of packages your package <code>Depends</code> on, <code>Imports</code> and <code>Suggests</code>. You can specify certain versions within for each of these.</p>
+</div>
+<div id="packrat" class="section level4">
+<h4><span class="header-section-number">3.2.2.2</span> packrat</h4>
+<p><a href="https://rstudio.github.io/packrat/"><code>packrat</code></a> is a dependency management system for R. Use packrat to make your R projects more:</p>
+<ul>
+<li>Isolated: Installing a new or updated package for one project won’t break your other projects, and vice versa. That’s because <code>packrat</code> gives each project its own private package library.</li>
+<li>Portable: Easily transport your projects from one computer to another, even across different platforms. <code>packrat</code> makes it easy to install the packages your project depends on.</li>
+<li>Reproducible: <code>packrat</code> records the exact package versions you depend on, and ensures those exact versions are the ones that get installed wherever you go.</li>
+</ul>
+<p>See the <a href="http://rstudio.github.io/packrat/">project page</a> for more information.</p>
+</div>
+<div id="pkgsnap" class="section level4">
+<h4><span class="header-section-number">3.2.2.3</span> pkgsnap</h4>
+<p><a href="https://github.com/mangothecat/pkgsnap"><code>pkgsnap</code></a> is a more lightweight alternative to <code>packrat</code> which allows you to backup and restore certain CRAN package versions. <code>pkgsnap</code> will create a snapshot of your installed CRAN packages with <code>snap()</code>, and then use <code>restore()</code> on another system to recreate exactly the same environment. Unfortunately <code>pkgsnap</code> isn’t heavily developed.</p>
+<hr />
+</div>
+</div>
+</div>
+<div id="python" class="section level2">
+<h2><span class="header-section-number">3.3</span> Python</h2>
+<div id="code-testing-1" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Code testing</h3>
+<ul>
+<li><a href="http://nose.readthedocs.io/en/latest/">nosetools</a></li>
+<li><a href="https://docs.pytest.org/en/latest/">pytest</a></li>
+</ul>
+</div>
+</div>
+<div id="haskell" class="section level2">
+<h2><span class="header-section-number">3.4</span> Haskell</h2>
+</div>
+<div id="scala" class="section level2">
+<h2><span class="header-section-number">3.5</span> Scala</h2>
+</div>
+<div id="java" class="section level2">
+<h2><span class="header-section-number">3.6</span> Java</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="tools-1.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

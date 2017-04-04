@@ -1,0 +1,5 @@
+# Templates
+
+## R
+
+Applications and packages should use the built in project templates from RStudio. An Emacs skeletor.el package is available [here](http://0.0.0.0)

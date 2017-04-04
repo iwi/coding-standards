@@ -1,0 +1,67 @@
+# Programming languages 
+
+Make pretty code. No exceptions.
+
+## R
+
+### Tools
+
+* [goodpractice](https://github.com/MangoTheCat/goodpractice): Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.
+    * [lintr](https://github.com/jimhester/lintr): Static code analysis for R. Can be executed standalone/part of build or integrated into rstudio, emacs/ess, vim etc.
+* [formatr](https://yihui.name/formatr/): Format R code automatically.
+
+### Links
+
+* [Hadley Wickham's R Style Guide](http://r-pkgs.had.co.nz/style.html)
+
+* [Code Golf](http://codegolf.stackexchange.com/) :)
+
+
+## Code packaging
+When writing code for a project, that code should ideally be held within a self contained package or series of packages. This helps to manage [dependencies](#deps) on other packages, [code testing](#tests), documentation and more.
+
+For R, there is one major resource that you should make yourself familiar with: http://r-pkgs.had.co.nz/. This book should cover all the essentials you will need to know in order to write an R package. Once you have mastered this book, you may wish to consider the [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) manual, though this is a heavy read.
+
+### Code testing
+* [testthat](https://github.com/hadley/testthat)
+
+
+### Dependency management
+Keeping track of dependencies in R can be a chore, particularly when using lots of different packages such as those belonging to the `tidyverse`. There are however different packages which aim to help with this.
+
+
+#### `DESCRIPTION` file
+This is the most basic way of maintanining dependencies in R, though it is not recommended - it is only part of the dependency management system you should employ. Each R package will have a `DESCRIPTION` file which should contain a list of packages your package `Depends` on, `Imports` and `Suggests`. You can specify certain versions within for each of these.
+
+#### packrat
+
+[`packrat`](https://rstudio.github.io/packrat/) is a dependency management system for R. Use packrat to make your R projects more:
+
+* Isolated: Installing a new or updated package for one project won't break your other projects, and vice versa. That's because `packrat` gives each project its own private package library.
+* Portable: Easily transport your projects from one computer to another, even across different platforms. `packrat` makes it easy to install the packages your project depends on.
+* Reproducible: `packrat` records the exact package versions you depend on, and ensures those exact versions are the ones that get installed wherever you go.
+
+See the [project page](http://rstudio.github.io/packrat/) for more information.
+
+#### pkgsnap
+
+[`pkgsnap`](https://github.com/mangothecat/pkgsnap) is a more lightweight alternative to `packrat` which allows you to backup and restore certain CRAN package versions. `pkgsnap` will create a snapshot of your installed CRAN packages with `snap()`, and then use `restore()` on another system to recreate exactly the same environment. Unfortunately `pkgsnap` isn't heavily developed.
+
+
+--- 
+
+## Python
+
+### Code testing
+* [nosetools](http://nose.readthedocs.io/en/latest/)
+* [pytest](https://docs.pytest.org/en/latest/)
+
+
+## Haskell
+
+
+## Scala
+
+
+## Java
+
